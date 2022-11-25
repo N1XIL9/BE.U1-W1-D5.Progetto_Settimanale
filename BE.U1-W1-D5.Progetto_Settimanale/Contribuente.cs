@@ -112,7 +112,7 @@ namespace BE.U1_W1_D5.Progetto_Settimanale
                     goto sex;
                 }
 
-                
+                _sesso = sex;
 
                 Console.WriteLine("RESIDENTE:");
                 _comuneResidenza = Console.ReadLine();
