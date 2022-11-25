@@ -93,7 +93,6 @@ namespace BE.U1_W1_D5.Progetto_Settimanale
 
             try
             {
-
                 Console.WriteLine("NATO IL (GG/MM/AAAA):");
                 _dataNascita = DateTime.Parse(Console.ReadLine());
 
