@@ -91,7 +91,9 @@ namespace BE.U1_W1_D5.Progetto_Settimanale
             Console.WriteLine("NOME CONTRIBUENTE:");
             _nome = Console.ReadLine();
 
+            
             try
+
             {
                 Console.WriteLine("NATO IL (GG/MM/AAAA):");
                 _dataNascita = DateTime.Parse(Console.ReadLine());
@@ -110,6 +112,7 @@ namespace BE.U1_W1_D5.Progetto_Settimanale
                     goto sex;
                 }
 
+                
 
                 Console.WriteLine("RESIDENTE:");
                 _comuneResidenza = Console.ReadLine();
